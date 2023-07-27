@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times without changing the output
+
+# Define the message to be repeated
+message="Best School"
+
+# Loop to display the message 10 times
+for ((i = 1; i <= 10; i++))
+do
+    echo "$message"
+done
