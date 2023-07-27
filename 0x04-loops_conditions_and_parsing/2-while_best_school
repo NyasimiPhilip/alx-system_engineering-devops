@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# This script displays the message "Best School" 10 times using a while loop.
+
+# Initialize a variable to control the loop
+i=0
+
+# Use a while loop to repeat the message 10 times
+while ((i < 10))
+do
+    echo "Best School"  # Output the message
+    ((i++))  # Increment the loop control variable
+done
+
