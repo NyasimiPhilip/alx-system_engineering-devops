@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# shellcheck disable=SC2009
+ps_output=$(ps ax -o user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,command | grep bash)
+
+echo "$ps_output"
