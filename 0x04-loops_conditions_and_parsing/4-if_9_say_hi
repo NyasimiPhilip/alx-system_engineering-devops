@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# This script displays the message "Best School" 10 times, but it prints "Hi" during the ninth iteration.
+
+# Initialize a variable to control the loop
+i=0
+
+# Use a while loop to repeat the message 10 times
+while ((i < 10))
+do
+    echo "Best School"  # Output the message
+
+    # Check if the current iteration is the ninth and print "Hi" if true
+    if [ $i -eq 9 ]
+    then
+        echo "Hi"
+    fi
+
+    # Increment the loop control variable
+    ((i++))
+done

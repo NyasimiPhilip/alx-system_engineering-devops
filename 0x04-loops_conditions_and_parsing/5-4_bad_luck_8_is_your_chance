@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# This script displays "Best School" 10 times but prints "bad luck" at 4 and "good luck" at 8.
+
+# Initialize a variable to control the loop
+i=0
+
+# Use a while loop to repeat the message 10 times
+while ((i < 10))
+do
+    ((i++))  # Increment the loop control variable
+
+    # Check if the current iteration is 4 and print "bad luck" if true
+    if [ $i -eq 4 ]
+    then
+        echo "bad luck"
+    # Check if the current iteration is 8 and print "good luck" if true
+    elif [ $i -eq 8 ]
+    then
+        echo "good luck"
+    else
+        echo "Best School"  # Output the message "Best School" for other iterations
+    fi
+done

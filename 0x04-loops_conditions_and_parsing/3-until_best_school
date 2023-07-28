@@ -10,4 +10,3 @@ do
     echo "Best School"  # Output the message
     ((i++))  # Increment the loop control variable
 done
-
