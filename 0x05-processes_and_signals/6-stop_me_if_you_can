@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Check if the process is running and get its PID
+pid=$(pgrep -f "4-to_infinity_and_beyond")
+
+if [ -n "$pid" ]; then
+  echo "Stopping 4-to_infinity_and_beyond process..."
+  # Send a SIGTERM signal to the process
+  ps -p $pid -o command= | awk '{print $1}' | xargs kill
+else
+  echo "4-to_infinity_and_beyond process is not running."
+fi
