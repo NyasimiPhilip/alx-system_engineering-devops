@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Get the PID of the current script
 script_pid=$$
 
@@ -8,7 +9,10 @@ get_process_name() {
     local cmdline_file="/proc/$pid/cmdline"
     if [ -f "$cmdline_file" ]; then
         # Read the first null-separated field from cmdline file (process name)
-        cat "$cmdline_file" | tr '\0' '\n' | head -n 1
+        # Use input redirection (<) to directly read from the cmdline file instead of 'cat'.
+        # Then, use 'tr' to replace null characters with newlines.
+        # Finally, use 'head -n 1' to extract the first line (the process name).
+        < "$cmdline_file" tr '\0' '\n' | head -n 1
     fi
 }
 
