@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Start the 4-to_infinity_and_beyond script in the background
 ./4-to_infinity_and_beyond &
@@ -7,7 +7,7 @@
 PID=$!
 
 # Wait for any key press to continue
-read -n 1 -s -r -p "Press any key to stop the process..."
+read -n 1 -s -r -p ""
 
 # Send the termination signal to the process with the stored PID
 kill $PID
