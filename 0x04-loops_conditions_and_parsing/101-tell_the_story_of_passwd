@@ -1,5 +1,4 @@
-#!/bin/bash
-
+#!/usr/bin/env bash
 # Use the while loop to read each line of the /etc/passwd file
 # The 'while' loop reads the file line by line until there are no more lines to read.
 # The 'IFS=":"' sets the input field separator to ":" which means each line is split into fields based on the ":" character.
