@@ -1,5 +1,4 @@
-#!/bin/bash
-
+#!/usr/bin/env bash
 # Get the process information using ps command
 ps_output=$(ps ax -o user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,command)
 
