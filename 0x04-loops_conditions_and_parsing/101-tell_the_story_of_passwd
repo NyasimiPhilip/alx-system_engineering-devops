@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # Create a temporary file to store the results
 temp_file=$(mktemp)
 
@@ -8,14 +9,14 @@ while IFS=":" read -r username _ group_id _ home _ command _; do
     uid=$(id -u "$username")
 
     # Extract the password field from the /etc/passwd file for the specific user
-    password=$(grep "^$username:" /etc/passwd | cut -d ":" -f 2)
+    grep "^$username:" /etc/passwd | cut -d ":" -f 2 > "$temp_file"
+
+    # Read the password from the temporary file
+    password=$(cat "$temp_file")
 
     # Print the story of each user
-    echo "The user $username is part of the $group_id gang, lives in $home and rides $command. $uid's place is protected by the passcode $password, more info about the user here: $username" >> "$temp_file"
+    echo "The user $username is part of the $group_id gang, lives in $home and rides $command. $uid's place is protected by the passcode $password, more info about the user here: $username"
 done </etc/passwd
-
-# Output the content of the temporary file
-cat "$temp_file"
 
 # Remove the temporary file
 rm "$temp_file"
