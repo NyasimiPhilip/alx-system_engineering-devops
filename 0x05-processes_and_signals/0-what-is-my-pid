@@ -1,3 +1,15 @@
 #!/usr/bin/env bash
+# This script is written in Bash and starts with the shebang line '#!/usr/bin/env bash',
+# which tells the system to use the 'bash' interpreter to execute the script.
+
+# The next line 'echo "$$"' prints the process ID (PID) of the current running script.
+# The '$$' is a special variable in Bash that represents the PID of the current process.
+# When you run the script, it will display the PID of the running script.
+
+# Note that the script ends with a tilde character '~' without any further instructions.
+# The tilde is an expansion symbol, typically used for user home directory expansion.
+# However, in this script, it is not followed by any instructions or commands, so it has no effect.
+# It might be possible that there is a missing part of the script, or it was cut off prematurely.
+# As it stands, the script only prints the PID and does not perform any additional actions.
 
 echo "$$"
