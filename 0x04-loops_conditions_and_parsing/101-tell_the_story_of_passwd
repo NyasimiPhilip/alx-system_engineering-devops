@@ -1,9 +1,8 @@
 #!/usr/bin/env bash
-# Use the while loop to read each line of the /etc/passwd file
-# The 'while' loop reads the file line by line until there are no more lines to read.
-# The 'IFS=":"' sets the input field separator to ":" which means each line is split into fields based on the ":" character.
-# The 'read' command reads the line and assigns the fields to the variables specified (username, _, group_id, _, home, _).
-# The underscores (_) are used as placeholders to ignore the fields that we don't need.
+# Create a temporary file to store the results
+temp_file=$(mktemp)
+
+# Use the while loop to read each line of the /etc/passwd file and write it to the temporary file
 while IFS=":" read -r username _ group_id _ home _ command _; do
     # Extract user id (uid) from the username field
     uid=$(id -u "$username")
@@ -12,7 +11,11 @@ while IFS=":" read -r username _ group_id _ home _ command _; do
     password=$(grep "^$username:" /etc/passwd | cut -d ":" -f 2)
 
     # Print the story of each user
-    echo "The user $username is part of the $group_id gang, lives in $home and rides $command. $uid's place is protected by the passcode $password, more info about the user here: $username"
+    echo "The user $username is part of the $group_id gang, lives in $home and rides $command. $uid's place is protected by the passcode $password, more info about the user here: $username" >> "$temp_file"
 done </etc/passwd
-# The '<' symbol redirects the input of the 'while' loop to come from the /etc/passwd file.
-# This way, each line of the file is processed inside the 'while' loop.
+
+# Output the content of the temporary file
+cat "$temp_file"
+
+# Remove the temporary file
+rm "$temp_file"
