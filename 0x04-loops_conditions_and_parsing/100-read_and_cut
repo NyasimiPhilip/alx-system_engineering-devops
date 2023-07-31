@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Use the while loop to read each line of the /etc/passwd file
+# The 'while' loop reads the file line by line until there are no more lines to read.
+# The 'IFS=":"' sets the input field separator to ":" which means each line is split into fields based on the ":" character.
+# The 'read' command reads the line and assigns the fields to the variables specified (username, _, uid, _, home, _).
+# The underscores (_) are used as placeholders to ignore the fields that we don't need.
+# Use the while loop to read each line of the /etc/passwd file
+while IFS=":" read -r username _ uid _ home _; do
+    # Print the username, user id (uid), and home directory path for each user
+    echo "$username:$uid:$home"
+done </etc/passwd
