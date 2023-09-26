@@ -4,22 +4,10 @@
 sudo apt update 
 sudo apt upgrade -y
 sudo apt install nginx -y
+sudo ufw 'Nginx HTTP'
 
-touch /var/www/html/index.html
-echo "Hello World!" > /var/www/html/index.html
+echo "Hello World!" | sudo tee /var/www/html/index.html
 
-echo "events {
+sudo nginx -t
 
-
-}
-
-http {
-        server {
-                listen 80;
-                server_name nyasimiphilip.tech;
-                root /var/www/html;
-                index index.html;
-        }
-}" > /etc/nginx/nginx.conf
-
-sudo service nginx restart
+sudo service nginx reload
