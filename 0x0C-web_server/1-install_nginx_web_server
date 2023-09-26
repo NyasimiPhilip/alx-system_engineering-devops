@@ -16,7 +16,7 @@ echo "events {
 http {
         server {
                 listen 80;
-                server_name stanceray.tech;
+                server_name nyasimiphilip.tech;
                 root /var/www/html;
                 index index.html;
         }
