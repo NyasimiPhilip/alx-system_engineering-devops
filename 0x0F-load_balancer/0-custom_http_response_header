@@ -26,7 +26,7 @@ http {
                 add_header X-Served-By $HOSTNAME;
 
                 location /redirect_me {
-                        return 301 https://stanceray.com;
+                        return 301 https://google.com;
                 }
                 
                 error_page 404 /404.html;
