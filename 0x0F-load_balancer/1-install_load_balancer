@@ -1,21 +1,21 @@
 #!/usr/bin/env bash
 # script to install and configure haproxy as a load balancer
-# Distribute requests using a roundrobin algorithm
+# Distribute requests using a round-robin algorithm
 # Make sure that HAproxy can be managed via an init script
 
+sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt-get install haproxy -y
-
-echo "ENABLED=1" >> /etc/default/haproxy
 
 echo "frontend http_front
 bind *:80
 mode http
 default_backend http_back
 
-backend http-back
+backend http_back
 balance roundrobin
-server 242663-web-01 54.144.138.139  check
-server 242663-web-02 35.175.64.238  check " > /etc/haproxy/haproxy.cfg
+server 242663-web-01 18.210.20.78:80 check
+server 242663-web-02 54.144.138.139:80 check" > /etc/haproxy/haproxy.cfg
 
-sudo service haproxy restart
+sudo systemctl enable haproxy
+sudo systemctl restart haproxy
