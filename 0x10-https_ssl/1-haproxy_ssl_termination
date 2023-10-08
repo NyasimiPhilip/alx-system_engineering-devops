@@ -32,3 +32,16 @@ defaults
         errorfile 502 /etc/haproxy/errors/502.http
         errorfile 503 /etc/haproxy/errors/503.http
         errorfile 504 /etc/haproxy/errors/504.http
+
+frontend https_front
+        mode http
+        bind *:80
+        bind *:443 ssl crt /etc/ssl/certs/nyasimiphilip.pem
+        http-request set-header X-Forwarded-Proto https if { ssl_fc }
+        http-request set-header X-Forwarded-Proto http if !{ ssl_fc }
+        default_backend http_back
+
+backend http_back
+        balance roundrobin
+        server web-01 18.210.20.78:80 check
+        server web-02 54.144.138.139:80 check
