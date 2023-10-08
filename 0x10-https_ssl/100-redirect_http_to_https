@@ -37,7 +37,7 @@ frontend https_front
         mode http
         bind *:80
         bind *:443 ssl crt /etc/ssl/certs/nyasimiphilip.pem
-        http-request set-header X-Forwarded-Proto https if { ssl_fc }
+        http-request redirect scheme https code 301 unless { ssl_fc }
         http-request set-header X-Forwarded-Proto http if !{ ssl_fc }
         default_backend http_back
 
