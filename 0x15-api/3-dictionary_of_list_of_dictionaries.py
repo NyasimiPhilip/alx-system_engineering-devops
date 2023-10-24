@@ -16,7 +16,7 @@ if __name__ == "__main__":
         employee_name = employee.get('username')
         employee_id = employee.get('id')
         employee_tasks_url = (
-                f"https://jsonplaceholder.typicode.com/users/{employee_id}/todos"
+         f"https://jsonplaceholder.typicode.com/users/{employee_id}/todos"
          )
         tasks_response = get(employee_tasks_url).json()
 
