@@ -30,7 +30,7 @@ if __name__ == "__main__":
             completed_tasks_list.append(item.get('title'))
             completed_tasks += 1
 
-    progress_message = "Employee {} has completed tasks ({}/{}):".format(
+    progress_message = "Employee {} is done with tasks({}/{}):".format(
         employee_name, completed_tasks, total_tasks
     )
     print(progress_message)
