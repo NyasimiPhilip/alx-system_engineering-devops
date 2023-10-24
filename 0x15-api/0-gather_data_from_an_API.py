@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-""" 
-Script that uses a REST API to retrieve and display task progress information for a given employee ID.
+"""
+Script that uses a REST API to retrieve and display
+task progress information for a given employee ID.
 """
 
 if __name__ == "__main__":
@@ -8,8 +9,12 @@ if __name__ == "__main__":
     import sys
 
     user_id = sys.argv[1]
-    task_url = "https://jsonplaceholder.typicode.com/users/{}/todos".format(user_id)
-    user_info_url = "https://jsonplaceholder.typicode.com/users/{}".format(user_id)
+    task_url = "https://jsonplaceholder.typicode.com/users/{}/todos".format(
+        user_id
+    )
+    user_info_url = "https://jsonplaceholder.typicode.com/users/{}".format(
+        user_id
+    )
 
     tasks_response = requests.get(task_url)
     user_response = requests.get(user_info_url)
@@ -25,6 +30,10 @@ if __name__ == "__main__":
             completed_tasks_list.append(item.get('title'))
             completed_tasks += 1
 
-    print("Employee {} has completed tasks ({}/{}):".format(employee_name, completed_tasks, total_tasks))
+    progress_message = "Employee {} has completed tasks ({}/{}):".format(
+        employee_name, completed_tasks, total_tasks
+    )
+    print(progress_message)
+
     for task in completed_tasks_list:
         print("\t{}".format(task))
