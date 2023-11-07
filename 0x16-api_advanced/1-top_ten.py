@@ -4,7 +4,6 @@ import requests
 
 
 def top_ten(subreddit):
-     """Print the titles of the 10 hottest posts on a given subreddit."""
     url = f"https://www.reddit.com/r/{subreddit}/hot/.json"
     headers = {
         "User-Agent": "linux:0x16.api.advanced:v1.0.0 (by /u/bdov_)"
@@ -27,7 +26,3 @@ def top_ten(subreddit):
             return
     except requests.RequestException:
         return
-
-if __name__ == "__main__":
-    subreddit = "python"  # Replace with the desired subreddit
-    top_ten(subreddit)
