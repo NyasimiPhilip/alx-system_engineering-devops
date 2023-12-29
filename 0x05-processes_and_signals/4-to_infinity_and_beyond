@@ -11,10 +11,6 @@
 # The 'sleep' command pauses the execution of the script for the specified number of seconds (in this case, 2 seconds).
 # So, after printing the message, the script will wait for 2 seconds before printing it again.
 
-# The script will continue to repeat this process, printing the message "To infinity and beyond"
-# every 2 seconds, creating an infinite loop that runs until the script is manually terminated.
-# The tilde characters (~) at the end are likely just placeholders and don't have any effect on the script's behavior.
-# They might indicate a missing part of the script or are used for decorative purposes.
 
 while true; do
     echo "To infinity and beyond"
