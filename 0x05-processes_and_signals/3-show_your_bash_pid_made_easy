@@ -1,33 +1,5 @@
 #!/usr/bin/env bash
-# Get the PID of the current script
-script_pid=$$
+# Displays the PID along with the process name, of 
+#+ processes whose name contains the word "bash".
 
-# Function to extract process name from /proc/<pid>/cmdline
-get_process_name() {
-    local pid="$1"
-    local cmdline_file="/proc/$pid/cmdline"
-    if [ -f "$cmdline_file" ]; then
-        # Read the first null-separated field from cmdline file (process name)
-        # Use input redirection (<) to directly read from the cmdline file instead of 'cat'.
-        # Then, use 'tr' to replace null characters with newlines.
-        # Finally, use 'head -n 1' to extract the first line (the process name).
-        < "$cmdline_file" tr '\0' '\n' | head -n 1
-    fi
-}
-
-# Get all directories inside /proc that are numeric (representing PIDs)
-pids=(/proc/[0-9]*)
-
-# Loop through the PIDs and find processes containing the word "bash"
-for pid_dir in "${pids[@]}"; do
-    pid=$(basename "$pid_dir")
-    process_name=$(get_process_name "$pid")
-
-    # Check if the process name contains the word "bash"
-    if [[ "$process_name" == *"bash"* ]]; then
-        echo "$pid $process_name"
-    fi
-done
-
-# Display the PID of the current script
-echo "$script_pid bash"
+pgrep bash -l
