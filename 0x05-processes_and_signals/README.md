@@ -1,5 +1,4 @@
 <h1>Processes and Signals Project</h1>
-<p>In this project, I learned about handling process ID's and signals in Bash with ps, pgrep, pkill, exit, and trap.</p>
 <h2>Tasks</h2>
 <h3>Task 0: What is my PID</h3>
 <p><strong>0-what-is-my-pid:</strong> Bash script that displays its own PID.</p>
