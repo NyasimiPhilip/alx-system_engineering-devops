@@ -1,13 +1,6 @@
 #!/usr/bin/env bash
-# Get the process information using ps command
-ps_output=$(ps ax -o user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,command)
+# Displays a list of currently running processes.
+#   Shows all processes, for all users, including those
+#+  which might not have a TTY.
 
-# Format and display the process information
-echo "$ps_output" | awk 'BEGIN { printf "%-10s %-5s %-4s %-4s %-7s %-6s %-5s %-4s %-8s %-10s %s\n", "USER", "PID", "%CPU", "%MEM", "VSZ", "RSS", "TTY", "STAT", "START", "TIME", "COMMAND" }
-{
-    printf "%-10s %-5s %-4s %-4s %-7s %-6s %-5s %-4s %-8s %-10s ", $1, $2, $3, $4, $5, $6, $7, $8, $9, $10;
-    for (i=11; i<=NF; i++) {
-        printf "%s ", $i;
-    }
-    printf "\n";
-}'
+ps -auxf
