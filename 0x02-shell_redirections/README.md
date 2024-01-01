@@ -32,7 +32,7 @@
     </li>
     <li>
       <p>7. It is a good file that cuts iron without making a noise</p>
-      <code>7-file:</code> Bash script that creates a file named exactly \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:) containing the text Holberton School ending by a new line.
+      <code>7-file:</code> Bash script that creates a file named exactly \*\\'" Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
     </li>
     <li>
       <p>8. Save current state of directory</p>
