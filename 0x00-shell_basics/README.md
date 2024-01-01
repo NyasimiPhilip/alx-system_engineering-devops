@@ -36,17 +36,15 @@
     <li><strong>Task 14: Copy HTML files</strong><br>
         Bash script that copies all HTML files from the current working directory to the parent of the working directory, but only those that did not exist in the parent directory or were newer than the versions in the parent working directory. (See <code>14-copy_html</code>)</li>
     <li><strong>Task 15: Let’s move</strong><br>
-        Bash script that moves all files beginning with an uppercase letter to the directory <code>/tmp/u</code>. (See <code>15-lets_move</code>)</li>
+        Bash script that moves all files beginning with an uppercase letter to the directory <code>/tmp/u</code>. (See <code>100-lets_move</code>)</li>
     <li><strong>Task 16: Clean Emacs</strong><br>
-        Bash script that deletes all files in the current working directory that end with the character <code>~</code>. (See <code>16-clean_emacs</code>)</li>
+        Bash script that deletes all files in the current working directory that end with the character <code>~</code>. (See <code>101-clean-emacs</code>)</li>
     <li><strong>Task 17: Tree</strong><br>
-        Bash script that creates the directories <code>welcome/</code>, <code>welcome/to/</code>, and <code>welcome/to/holberton</code> in the current directory. (See <code>17-tree</code>)</li>
+        Bash script that creates the directories <code>welcome/</code>, <code>welcome/to/</code>, and <code>welcome/to/school</code> in the current directory. (See <code>102-tree</code>)</li>
    <li><strong>Task 18: Life is a series of commas, not periods</strong><br>
         Bash script that lists all files and directories of the current directory, including hidden ones, as follows:
         Separated by commas (<code>,</code>).
         Directory names end with a slash (<code>/</code>).
         Alpha-ordered, except for the directories <code>.</code> and <code>..</code> which are listed at the beginning.
-        Only digits and letters are used to sort - digits come first. (See <code>18-commas</code>)</li>
-    <li><strong>Task 19: File type: Holberton</strong><br>
-        <code>holberton.mgc</code>: A magic file that can be used with the command <code>file</code> to detect Holberton data files.</li>
+        Only digits and letters are used to sort - digits come first. (See <code>103-commas</code>)</li> 
 </ul>
