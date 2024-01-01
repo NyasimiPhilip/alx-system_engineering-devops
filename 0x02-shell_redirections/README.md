@@ -96,7 +96,7 @@
     </li>
   </ul>
 
-  <h2>Additional Tasks</h2>
+ <h2>Additional Tasks</h2>
 
   <ul>
     <li>
@@ -110,4 +110,24 @@
     </li>
     <li>
       <p>24. A gif is worth ten thousand words</p>
-      <code>101-gifs
+      <code>101-gifs:</code> Bash script that lists all the files with a .gif extension in the current directory and all its sub-directories as follows:
+      <ul>
+        <li>Hidden files included.</li>
+        <li>Only regular files (not directories) listed.</li>
+        <li>File names displayed without extensions.</li>
+        <li>Files sorted by byte values, but case insensitive.</li>
+        <li>One file name per line.</li>
+      </ul>
+    </li>
+    <li>
+      <p>25. Acrostic</p>
+      <code>102-acrostic:</code> Bash script that decodes acrostics that use the first letter of each line.
+    </li>
+    <li>
+      <p>26. The biggest fan</p>
+      <code>103-the_biggest_fan:</code> Bash script that parses web server logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
+      <ul>
+        <li>Ordered by number of requests, with most active hosts or IP's at the top.</li>
+      </ul>
+    </li>
+  </ul>
