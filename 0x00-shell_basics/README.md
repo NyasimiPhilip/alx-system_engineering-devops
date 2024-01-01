@@ -1,6 +1,6 @@
 <h1>Shell Basics Project</h1>
 
-<p>In this project, I underwent an introductory crash course in the Shell. I learned how to navigate directories using <code>cd</code>, <code>pwd</code>, <code>ls</code>, how to look around using <code>ls</code>, <code>less</code>, and <code>file</code>, and how to manipulate files with <code>cp</code>, <code>mv</code>, <code>rm</code>, and <code>mkdir</code>. Further, I practiced working with the <code>type</code>, <code>which</code>, <code>help</code>, and <code>man</code> commands, implementing wildcards, reading man pages, creating links, and using keyboard shortcuts in Bash.</p>
+<p>I learned how to navigate directories using <code>cd</code>, <code>pwd</code>, <code>ls</code>, how to look around using <code>ls</code>, <code>less</code>, and <code>file</code>, and how to manipulate files with <code>cp</code>, <code>mv</code>, <code>rm</code>, and <code>mkdir</code>. Further, I practiced working with the <code>type</code>, <code>which</code>, <code>help</code>, and <code>man</code> commands, implementing wildcards, reading man pages, creating links, and using keyboard shortcuts in Bash.</p>
 
 <h2>Tasks</h2>
 
