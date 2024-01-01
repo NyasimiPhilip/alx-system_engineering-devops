@@ -64,28 +64,15 @@
       <code>13-change_group:</code> Bash script that changes the group owner to holberton for the file hello.
     </li>
     <li>
-      <p>14. Owner and group</p>
-      <code>14-change_owner_and_group:</code> Bash script that changes the owner to betty and the group owner to holberton for all the files and directories in the working directory.
+      <p>100. Owner and group</p>
+      <code>100-change_owner_and_group:</code> Bash script that changes the owner to betty and the group owner to holberton for all the files and directories in the working directory.
     </li>
     <li>
-      <p>15. Symbolic links</p>
-      <code>15-symbolic_link_permissions:</code> Bash script that changes the owner and the group owner of the file hello to betty and holberton, respectively.
+      <p>101. Symbolic links</p>
+      <code>101-symbolic_link_permissions:</code> Bash script that changes the owner and the group owner of the file hello to betty and holberton, respectively.
     </li>
     <li>
-      <p>16. If only</p>
-      <code>16-if_only:</code> Bash script that changes the owner of the file hello to betty only if it is owned by the user guillaume.
-    </li>
-  </ul>
-
-  <h2>Additional Tasks</h2>
-
-  <ul>
-    <li>
-      <p>17. Star Wars</p>
-      <code>100-Star_Wars:</code> Bash script that plays Star Wars Episode IV in the terminal.
-    </li>
-    <li>
-      <p>18. RTFM</p>
-      <code>101-man_holberton:</code> A man page.
+      <p>102. If only</p>
+      <code>102-if_only:</code> Bash script that changes the owner of the file hello to betty only if it is owned by the user guillaume.
     </li>
   </ul>
