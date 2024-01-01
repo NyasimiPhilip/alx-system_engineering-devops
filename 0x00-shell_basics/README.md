@@ -1,28 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shell Basics Project</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            max-width: 800px;
-            margin: auto;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        code {
-            background-color: #f4f4f4;
-            padding: 2px 6px;
-            border: 1px solid #ddd;
-            font-family: 'Courier New', monospace;
-        }
-    </style>
-</head>
-<body>
 <h1>Shell Basics Project</h1>
 
 <p>In this project, I underwent an introductory crash course in the Shell. I learned how to navigate directories using <code>cd</code>, <code>pwd</code>, <code>ls</code>, how to look around using <code>ls</code>, <code>less</code>, and <code>file</code>, and how to manipulate files with <code>cp</code>, <code>mv</code>, <code>rm</code>, and <code>mkdir</code>. Further, I practiced working with the <code>type</code>, <code>which</code>, <code>help</code>, and <code>man</code> commands, implementing wildcards, reading man pages, creating links, and using keyboard shortcuts in Bash.</p>
@@ -66,9 +41,12 @@
         Bash script that deletes all files in the current working directory that end with the character <code>~</code>. (See <code>16-clean_emacs</code>)</li>
     <li><strong>Task 17: Tree</strong><br>
         Bash script that creates the directories <code>welcome/</code>, <code>welcome/to/</code>, and <code>welcome/to/holberton</code> in the current directory. (See <code>17-tree</code>)</li>
-    <li><strong>Task 18: Life is a series of commas, not periods</strong><br>
+   <li><strong>Task 18: Life is a series of commas, not periods</strong><br>
         Bash script that lists all files and directories of the current directory, including hidden ones, as follows:
         Separated by commas (<code>,</code>).
         Directory names end with a slash (<code>/</code>).
         Alpha-ordered, except for the directories <code>.</code> and <code>..</code> which are listed at the beginning.
-        Only digits and letters are used to sort - digits come first. (
+        Only digits and letters are used to sort - digits come first. (See <code>18-commas</code>)</li>
+    <li><strong>Task 19: File type: Holberton</strong><br>
+        <code>holberton.mgc</code>: A magic file that can be used with the command <code>file</code> to detect Holberton data files.</li>
+</ul>
