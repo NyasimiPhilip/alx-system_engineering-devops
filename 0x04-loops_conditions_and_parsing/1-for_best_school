@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times without changing the output
+# This script is displaying "Best School" 10 times without changing the output.
 
 # Define the message to be repeated
 message="Best School"
