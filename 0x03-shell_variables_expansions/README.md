@@ -1,5 +1,4 @@
- <h1>Shell Scripting Project</h1>
-    <p>In this project, I learned about initialization files, local, global, and reserved variables, and special parameters in the Shell. Further, I practiced using expansions, performing arithmetic operations, and utilizing aliases.</p>
+ <h1>Shell Scripting Project</h1>  
     <h2>Tasks 📃</h2>
     <ol>
         <li>
