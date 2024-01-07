@@ -1,6 +1,6 @@
  <h1>Shell Scripting Project</h1>  
     <h2>Tasks 📃</h2>
-    <ol>
+    <ul>
         <li>
             <h3>0. Alias</h3>
             <p><strong><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/0-alias" target="_blank">0-alias:</a></strong> Bash script that creates an alias named ls with value rm *.</p>
@@ -72,4 +72,4 @@
             <h3>17. I'm an instant star. Just add water and stir.</h3>
             <p><strong><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/102-water_and_stir" target="_blank">102-water_and_stir:</a></strong> Bash script that adds the two numbers stored in the environment variables WATER and STIR and prints the result. WATER is in base water, STIR is in base stir, and the result is in base behlnort.</p>
         </li>
-    </ol>
+    </ul>
