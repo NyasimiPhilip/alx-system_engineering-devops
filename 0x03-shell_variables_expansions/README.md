@@ -58,18 +58,18 @@
             <p><strong><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/13-print_float" target="_blank">13-print_float:</a></strong> Bash script that prints a number stored in the environment variable NUM with two decimal places.</p>
         </li>
           <h3>14. Decimal to Hexadecimal</h3>
-            <p><strong><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/14-decimal_to_hexadecimal" target="_blank">14-decimal_to_hexadecimal:</a></strong> Bash script that converts a number in base 10 stored in the environment variable DECIMAL to base 16.</p>
+            <p><strong><a href=https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/100-decimal_to_hexadecimal">14-decimal_to_hexadecimal:</a></strong> Bash script that converts a number in base 10 stored in the environment variable DECIMAL to base 16.</p>
         </li>
         <li>
             <h3>15. Everyone is a proponent of strong encryption</h3>
-            <p><strong><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/100-rot13" target="_blank">100-rot13:</a></strong> Bash script that encodes and decodes text using the rot13 encryption.</p>
+            <p><strong><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/101-rot13" target="_blank">100-rot13:</a></strong> Bash script that encodes and decodes text using the rot13 encryption.</p>
         </li>
         <li>
             <h3>16. The eggs of the brood need to be an odd number</h3>
-            <p><strong><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/101-odd" target="_blank">101-odd:</a></strong> Bash script that prints every other line from the input, starting with the first line.</p>
+            <p><strong><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/102-odd" target="_blank">101-odd:</a></strong> Bash script that prints every other line from the input, starting with the first line.</p>
         </li>
         <li>
             <h3>17. I'm an instant star. Just add water and stir.</h3>
-            <p><strong><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/102-water_and_stir" target="_blank">102-water_and_stir:</a></strong> Bash script that adds the two numbers stored in the environment variables WATER and STIR and prints the result. WATER is in base water, STIR is in base stir, and the result is in base behlnort.</p>
+            <p><strong><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x03-shell_variables_expansions/103-water_and_stir" target="_blank">102-water_and_stir:</a></strong> Bash script that adds the two numbers stored in the environment variables WATER and STIR and prints the result. WATER is in base water, STIR is in base stir, and the result is in base behlnort.</p>
         </li>
     </ul>
