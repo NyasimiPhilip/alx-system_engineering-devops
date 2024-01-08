@@ -25,7 +25,7 @@
       </li>
       <li>
         <h3>5. Kill me now</h3>
-        <p><strong><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/5-kill_me_now">5-kill_me_now:</a></strong> Bash script that kills the 4-to_infinity_and_beyond process using kill.</p>
+        <p><strong><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/5-dont_stop_me_now">5-kill_me_now:</a></strong> Bash script that kills the 4-to_infinity_and_beyond process using kill.</p>
       </li>
       <li>
         <h3>6. Kill me now made easy</h3>
