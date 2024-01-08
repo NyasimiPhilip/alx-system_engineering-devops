@@ -29,6 +29,6 @@
       </li>
       <li>
         <h3>6. Kill me now made easy</h3>
-        <p><strong><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/6-kill_me_now_made_easy">6-kill_me_now_made_easy:</a></strong> Bash script that kills the 4-to_infinity_and_beyond process using pkill.</p>
+        <p><strong><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x05-processes_and_signals/6-stop_me_if_you_can">6-kill_me_now_made_easy:</a></strong> Bash script that kills the 4-to_infinity_and_beyond process using pkill.</p>
       </li>
     </ol>
