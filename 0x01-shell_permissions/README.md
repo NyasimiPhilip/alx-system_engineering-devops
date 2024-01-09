@@ -4,7 +4,7 @@
   <ul>
     <li>
       <p>0. My name is Betty</p>
-      <code>0-iam_betty:</code> Bash script that changes the user ID to betty.
+      <code><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x01-shell_permissions/0-iam_betty">0-iam_betty</a>:</code> Bash script that changes the user ID to betty.
     </li>
     <li>
       <p>1. Who am I</p>
