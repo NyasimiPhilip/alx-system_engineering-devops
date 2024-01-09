@@ -3,7 +3,7 @@
   <h2>Tasks</h2>
   <ul>
     <li>
-      <p><a> href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x02-shell_redirections/0-hello_world"0. Hello World<a></p>
+      <p><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x02-shell_redirections/0-hello_world">0. Hello World<a></p>
       <code>0-hello_world:</code> Bash script that prints "Hello, World" followed by a new line to the standard output.
     </li>
     <li>
