@@ -35,7 +35,7 @@
     <li><strong>Task 15: Let’s move</strong><br>
         Bash script that moves all files beginning with an uppercase letter to the directory <code>/tmp/u</code>. (See <code><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x00-shell_basics/100-lets_move">100-lets_move</a></code>)</li>
     <li><strong>Task 16: Clean Emacs</strong><br>
-        Bash script that deletes all files in the current working directory that end with the character <code>~</code>. (See <code><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x00-shell_basics/101-clean-emacs">101-clean-emacs</a></code>)</li>
+        Bash script that deletes all files in the current working directory that end with the character <code>~</code>. (See <code><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x00-shell_basics/101-clean_emacs">101-clean_emacs</a></code>)</li>
     <li><strong>Task 17: Tree</strong><br>
         Bash script that creates the directories <code>welcome/</code>, <code>welcome/to/</code>, and <code>welcome/to/school</code> in the current directory. (See <code><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x00-shell_basics/102-tree">102-tree</a></code>)</li>
     <li><strong>Task 18: Life is a series of commas, not periods</strong><br>
