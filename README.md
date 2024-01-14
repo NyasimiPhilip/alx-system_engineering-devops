@@ -10,8 +10,8 @@
         <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x04-loops_conditions_and_parsing">0x04. Loops, conditions and parsing</a></li>
         <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x05-processes_and_signals">0x05. Processes and signals</a></li>
         <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x06-regular_expression">0x06. Regular expression</a></li>
-        <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x07-networking_basics_0">0x07. Networking basics #0</a></li>
-        <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x08-networking_basics_1">0x08. Networking basics #1</a></li>
+        <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x07-networking_basics">0x07. Networking basics</a></li>
+        <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x08-networking_basics_2">0x08. Networking basics_2</a></li>
         <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x09-web_infrastructure_design">0x09. Web infrastructure design</a></li>
         <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x0A-ssh">0x0A. SSH</a></li>
         <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x0B-web_server">0x0B. Web server</a></li>
