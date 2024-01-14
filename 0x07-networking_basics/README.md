@@ -8,7 +8,7 @@ h1>Networking Basics #0</h1>
         <p><code>0-OSI_model:</code> Text file answering the following questions:</p>
         <ul>
             <li>What is the OSI model?
-                <0l>
+                <ol>
                     <li>Set of specifications that network hardware manufacturers must respect</li>
                     <li>The OSI model is a conceptual model that characterizes the communication functions of a telecommunication system without regard to their underlying internal structure and technology.</li>
                     <li>The OSI model is a model that characterizes the communication functions of a telecommunication system with a strong regard for their underlying internal structure and technology.</li>
