@@ -1,7 +1,7 @@
  <h2>API Tasks 📃</h2>
     <h3>0. Gather Data from an API</h3>
     <p>
-        <code>0-gather_data_from_an_API.py: </code>
+        <code><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x15-api/0-gather_data_from_an_API.py">0-gather_data_from_an_API.py:</a></code>
      Python script that returns information on the to-do list progress of a given employee ID.
 Usage: 
      <pre>
@@ -11,7 +11,7 @@ Usage:
     </p>    
     <h3>1. Export to CSV</h3>
     <p>
-        <code>1-export_to_CSV.py: </code>
+        <code><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x15-api/1-export_to_CSV.py">1-export_to_CSV.py:< </code>
      Python script exports to-do list information of a given employee ID to CSV format.
 <pre>
  Usage: python3 1-export_to_CSV.py &lt;employee ID&gt;
@@ -21,7 +21,7 @@ Usage:
     </p>
     <h3>2. Export to JSON</h3>
     <p>
-      <code>2-export_to_JSON.py: </code>
+      <code><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x15-api/2-export_to_JSON.py">2-export_to_JSON.py:</a></code>
      Python script that exports to-do list information of a given employee ID to JSON format.
      <pre>
      Usage: python3 2-export_to_JSON.py &lt;employee ID&gt;
@@ -31,7 +31,7 @@ Usage:
     </p>
     <h3>3. Dictionary of List of Dictionaries</h3>
     <p>
-        <code>3-dictionary_of_list_of_dictionaries.py:</code> Python script that exports to-do list information for all employees to JSON format.
+        <code><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x15-api/3-dictionary_of_list_of_dictionaries">3-dictionary_of_list_of_dictionaries.py:</a></code> Python script that exports to-do list information for all employees to JSON format.
      <pre>
 Usage: python3 3-dictionary_of_list_of_dictionaries.py
 File name: todo_all_employees.json
