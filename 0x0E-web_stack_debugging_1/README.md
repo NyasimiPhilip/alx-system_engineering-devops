@@ -10,6 +10,6 @@
             <strong>
                 <a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x0E-web_stack_debugging_1/1-debugging_made_short">Make it sweet and short</a>
             </strong>
-            <p><code>1-debugging_made_short:</code> Bash script that configures Nginx to listen to port 80 without running on all of a server's active IPv4's.</p>
+            <p><code>1-debugging_made_short:</code>This Bash script is designed to address an Nginx error by creating a symbolic link for the default configuration, restarting the Nginx service to apply changes, and terminating the oldest Nginx process.</p>
         </li>
     </ol>
