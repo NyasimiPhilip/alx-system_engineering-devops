@@ -55,6 +55,6 @@
             <strong>
                 <a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x0C-web_server/7-puppet_install_nginx_web_server.pp">Deploy fast, deploy well</a>
             </strong>
-            <p><code>fabfile.py:</code>This Puppet manifest installs Nginx, creates a simple "Hello World" HTML page, and configures URL redirection using a custom Nginx site configurati</p>           
+            <p><code>7-puppet_install_nginx_web_server.pp:</code>This Puppet manifest installs Nginx, creates a simple "Hello World" HTML page, and configures URL redirection using a custom Nginx site configurati</p>           
         </li>
     </ol>
