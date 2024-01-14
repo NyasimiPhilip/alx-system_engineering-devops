@@ -9,7 +9,7 @@
         <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x03-shell_init_files_variables_and_expansions">0x03. Shell, init files, variables and expansions</a></li>
         <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x04-loops_conditions_and_parsing">0x04. Loops, conditions and parsing</a></li>
         <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x05-processes_and_signals">0x05. Processes and signals</a></li>
-        <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x06-regular_expression">0x06. Regular expression</a></li>
+        <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x06-regular_expressions">0x06. Regular expression</a></li>
         <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x07-networking_basics">0x07. Networking basics</a></li>
         <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x08-networking_basics_2">0x08. Networking basics_2</a></li>
         <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x09-web_infrastructure_design">0x09. Web infrastructure design</a></li>
