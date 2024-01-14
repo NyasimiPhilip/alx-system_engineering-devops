@@ -29,7 +29,7 @@
             <strong>
                 <a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x0C-web_server/2-setup_a_domain_name">Setup a domain name</a>
             </strong>
-            <p><code>2-setup_a_domain_name:</code> A text file containing the domain name set up for the server through Gandi.</p>
+            <p><code>2-setup_a_domain_name:</code> A text file containing the domain name set up for the server</p>
         </li>
         <li>
             <strong>
