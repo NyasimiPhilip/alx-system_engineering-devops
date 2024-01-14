@@ -26,15 +26,15 @@
     </li>
     <li>
         <strong>Call me maybe</strong>
-        <p><code>6-phone_number.rb:</code> Ruby script that matches a regular expression representing a 10-digit phone number.</p>
+        <p><code><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x06-regular_expressions/6-phone_number.rb">6-phone_number.rb</a>:</code> Ruby script that matches a regular expression representing a 10-digit phone number.</p>
     </li>
     <li>
         <strong>OMG WHY ARE YOU SHOUTING?</strong>
-        <p><code>7-OMG_WHY_ARE_YOU_SHOUTING.rb:</code> Ruby script that matches regular expressions of uppercase letters.</p>
+        <p><code><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x06-regular_expressions/7-OMG_WHY_ARE_YOU_SHOUTING.rb">7-OMG_WHY_ARE_YOU_SHOUTING.rb</a>:</code> Ruby script that matches regular expressions of uppercase letters.</p>
     </li>
     <li>
         <strong>Textme</strong>
-        <p><code>100-textme.rb:</code> Ruby script that runs statistics on TextMe app text message transactions.</p>
+        <p><code><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x06-regular_expressions/100-textme.rb">100-textme.rb</a>:</code> Ruby script that runs statistics on TextMe app text message transactions.</p>
         <p>Output: [SENDER],[RECEIVER],[FLAGS] where<br>
             [SENDER] is the sender phone number or name (including country code if present).<br>
             [RECEIVER] is the receiver phone number or name (including country code if present).<br>
