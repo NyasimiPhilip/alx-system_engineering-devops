@@ -28,18 +28,18 @@
     <ol>
         <li>
             <h3>How many subs?</h3>
-            <p><em>0-subs.py:</em> Python function that returns the total number of subscribers for a given subreddit. Returns 0 if an invalid subreddit is given.</p>
+            <p><em><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x16-api_advanced/0-subs.py">0-subs.py:</a></em> Python function that returns the total number of subscribers for a given subreddit. Returns 0 if an invalid subreddit is given.</p>
         </li>
         <li>
             <h3>Top Ten</h3>
-            <p><em>1-top_ten.py:</em> Python function that prints the top ten hottest posts for a given subreddit. Prints None if an invalid subreddit is given.</p>
+            <p><em><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x16-api_advanced/1-top_ten.py">1-top_ten.py:</a></em> Python function that prints the top ten hottest posts for a given subreddit. Prints None if an invalid subreddit is given.</p>
         </li>
         <li>
             <h3>Recurse it!</h3>
-            <p><em>2-recurse.py:</em> Python function that recursively returns a list of titles for all hot articles on a given subreddit. Returns None if no results are found on the given subreddit.</p>
+            <p><em><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x16-api_advanced/2-recurse.py">2-recurse.py:</a></em> Python function that recursively returns a list of titles for all hot articles on a given subreddit. Returns None if no results are found on the given subreddit.</p>
         </li>
         <li>
             <h3>Count it!</h3>
-            <p><em>100-count.py:</em> Python function that recursively prints a sorted count of given keywords parsed from titles of all hot articles on a given subreddit. Keywords are case-insensitive and delimited by spaces. Results are printed in descending order by count. Words with identical counts are sorted alphabetically. Words with no matches are skipped. Results are based on the number of times a keyword appears - i.e., "java java java" counts as three separate instances of "java."</p>
+            <p><em><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x16-api_advanced/100-count.py">100-count.py:</a></em> Python function that recursively prints a sorted count of given keywords parsed from titles of all hot articles on a given subreddit. Keywords are case-insensitive and delimited by spaces. Results are printed in descending order by count. Words with identical counts are sorted alphabetically. Words with no matches are skipped. Results are based on the number of times a keyword appears - i.e., "java java java" counts as three separate instances of "java."</p>
         </li>
     </ol>
