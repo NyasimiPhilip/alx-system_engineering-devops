@@ -25,10 +25,8 @@
         <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x14-mysql">0x14. Mysql</a></li>
         <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x15-api">0x15. API</a></li>
         <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x16-api_advanced">0x16. API advanced</a></li>
-        <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x17-web_stack_debugging_3">0x17. Web stack debugging #3</a></li>
-        <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x18-webstack_monitoring">0x18. Webstack monitoring</a></li>    
-        <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x1B-web_stack_debugging_4">0x1B. Web stack debugging #4</a></li>
-        <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/command_line_for_the_win">Command Line for the Win</a></li>
+        <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x17-web_stack_debugging_3">0x17. Web stack debugging #3</a></li>        
+        <li><a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/tree/master/0x1B-web_stack_debugging_4">0x1B. Web stack debugging #4</a></li>       
     </ul>
      <p><strong>Author 🙂</strong></p>
     <p><code>Nyasimi Philip</code></p>
