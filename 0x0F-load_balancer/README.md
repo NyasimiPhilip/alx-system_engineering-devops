@@ -20,7 +20,8 @@
             <strong>
                 <a href="https://github.com/NyasimiPhilip/alx-system_engineering-devops/blob/master/0x0F-load_balancer/ 2-puppet_custom_http_response_header.pp">Install with puppet</a>
         <strong>
-        <p><code></p>2-puppet_custom_http_response_header.pp:</code>Bash script that automates the installation of Nginx, adds a custom HTTP header response to the Nginx configuration, and restarts the Nginx service using Puppet. The custom header (X-Served-By) includes the hostname of the machine where this script is executed.
+        <code></p>2-puppet_custom_http_response_header.pp:</code>
+            <p>Bash script that automates the installation of Nginx, adds a custom HTTP header response to the Nginx configuration, and restarts the Nginx service using Puppet. The custom header (X-Served-By) includes the hostname of the machine where this script is executed.
             </strong>
             </li>
     </ol>
