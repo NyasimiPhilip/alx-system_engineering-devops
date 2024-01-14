@@ -1,7 +1,5 @@
 <h1>API Advanced</h1>
-    <p>In this advanced project, I continued to practice querying APIs. This time, I worked with the Reddit API.</p>
-    <h2>Tests ✔️</h2>
-    <p><strong>Tests:</strong> This folder contains test files for all tasks, and it was provided by Holberton School.</p>
+    <p>In this advanced project, I continued to practice querying APIs. This time, I worked with the Reddit API.</p>    
     <h2>Function Prototypes 💾</h2>
     <p><strong>Prototypes for functions written in this project:</strong></p>
     <table>
